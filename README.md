@@ -1,1 +1,62 @@
 # GeospatialAdvertismentBasics
+> This project was made for iOS
+
+This project tries to combine AR and advertisment. However, this project can also be used as basis for a Geosptial AR app. There is a sample scene you can use, or start immediately with a AR Ready Main scene. Please read the requirements before getting started.
+
+## Requirements
+1. Google Cloud Services
+   - You can use the same project for both APIs, so you only need 1 API key
+   - Google Maps Tiles API
+     - **IMPORTANT: YOU WILL NEED TO ENTER CREDIT CARD CREDENTIALS TO USE THIS API ON YOUR ACCOUNT**
+     - Go to [Google Cloud Console](https://console.cloud.google.com)
+     - Create a new project or select an existing one
+     - Navigate to the "APIs & Services" Page
+     - Click on the top of the sceen on the "ENABLE APIS AND SERVICES" button and search for "Map Tiles API"
+     - Enable the API (you might be asked to fill in your credentials here)
+     - Get your API key from the credentials page
+   -  Google ARCore API
+     - Go to [Google Cloud Console](https://console.cloud.google.com)
+     - Create a new project or select an existing one
+     - Navigate to the "APIs & Services" Page
+     - Click on the top of the sceen on the "ENABLE APIS AND SERVICES" button and search for "ARCore API"
+     - Enable the API
+     - Get your API key from the credentials page
+2. Unity Version
+   - Install Unity Hub and Unity version 2022.3.10f1 with the iOS Build Support package
+
+## Getting Started
+1. Clone the GitHub repository on your pc via your preferred tool (e.g. GitHub Desktop)
+2. Open Unity Hub and navigate to the "projects" page
+3. Click on "Add"
+4. Browse to the location where you cloned this repo and select the folder
+5. Open the project
+
+## Configuring your API Keys
+1. ARCore API Key
+  - Go to Edit > Project Settings, located at the top right of your Unity Editor
+  - Navigato to XR Plugin Management > ARCore Extensions
+  - Paste the API Key for the Google ARCore API in both the Android and iOS API Key Field
+2. Google Maps Tiles API
+  - This key will need to be placed in every AR Geospatial Creator Origin, located in every scene (only 1 per scene)
+
+## Trying out the sample scene
+> This scene was build at Howest Kortrijk, Belgium. If you are not near this location to test, I recommend changing the coordinates (explained later) to test somewhere near you
+1. In the assets folder (usually the bottom part of your Unity Editor), navigate to the "Ads_Sample" folder
+2. Double click on SampleScene
+3. Click on "AR Geospatial Creator Origin" on the left of your screen
+4. Enter your Google Maps Tiles API key in the "Google Maps Tiles API key" field in the Inspector (Usually located at the right of your Unity Editor)
+5. (optional) Move the project to a different location:
+   - Go to a Google Maps, Earth, Apple Maps... and search for the desired location
+   - Get the Latitude and Longitude fron this location and paste them in the corret field of the "AR Geospatial Creator Origin" and the "AR Geospatial Creator Anchor"
+   - Change the height so it is around the same height of the Unity Grid for convenience
+![Image for clarification](https://i.imgur.com/gkX39AA.png)
+
+## Making your own scene
+> You can use the "Main" scene as a basis. The "AR Geospatial Creator Anchor" (also a prefab) can be used to place objects in the real world
+
+## Credits
+Special thanks Dilmer Valecillos' Youtube Channel for the awesome Geospatial tutorial! Check it out [here](https://www.youtube.com/watch?v=v2yQBDdw7jU&t=1591s)
+> Note: You can also use this video to enable Android Build Support, or create your own project.
+
+## License
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
