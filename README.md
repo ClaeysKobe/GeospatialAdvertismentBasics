@@ -1,5 +1,5 @@
 # GeospatialAdvertismentBasics
-> This project was made for iOS
+> **This project was made for iOS, so a device running a recent MacOS version and an iPhone are required**
 
 This project tries to combine AR and advertisment. However, this project can also be used as basis for a Geosptial AR app. There is a sample scene you can use, or start immediately with a AR Ready Main scene. Please read the requirements before getting started.
 
@@ -50,6 +50,28 @@ This project tries to combine AR and advertisment. However, this project can als
    - Get the Latitude and Longitude fron this location and paste them in the corret field of the "AR Geospatial Creator Origin" and the "AR Geospatial Creator Anchor"
    - Change the height so it is around the same height of the Unity Grid for convenience
 ![Image for clarification](https://i.imgur.com/gkX39AA.png)
+
+## Testing the sample project on your iOS device
+1. Build the project
+   - Go to "File" > "Build Settings", or press Ctrl + Shift + B
+   - Select iOS and click on "Switch Platform"
+   - Click on "Add Open Scenes". You should see "Scenes/SampleScene" appear
+   - Click on "Build" and choose a location to build the project, **I recommend too not build directly in your Unity folder! If you wish to build there, make a separate folder in your Unity Project**
+   - Wait untill the project is Build. Once done, open the _your_chosen_name_.xcworkspace file
+     - If you do not see a .xcworkspace file, but only a .xcodeproj file, please follow this first:
+       - copy the file path to your build
+       - Open "Terminal"
+       - type: cd _your copied filed path from previous step_
+       - press enter
+       - type: pod init
+       - press enter
+       - type: pod install
+       - press enter
+       - done
+    - Plug in your iPhone
+    - Press the "play" button on the top left of the xcode window
+    - Wait untill the project is build, it will open automatically
+    - Enjoy!
 
 ## Making your own scene
 > You can use the "Main" scene as a basis. The "AR Geospatial Creator Anchor" (also a prefab) can be used to place objects in the real world
