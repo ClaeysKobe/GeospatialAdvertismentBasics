@@ -55,7 +55,7 @@ This project tries to combine AR and advertisment. However, this project can als
 > You can use the "Main" scene as a basis. The "AR Geospatial Creator Anchor" (also a prefab) can be used to place objects in the real world
 
 ## Credits
-Special thanks Dilmer Valecillos' Youtube Channel for the awesome Geospatial tutorial! Check it out [here](https://www.youtube.com/watch?v=v2yQBDdw7jU&t=1591s)
+Special thanks Dilmer Valecillos' Youtube Channel for the awesome Geospatial tutorial! Check it out [here](https://www.youtube.com/watch?v=v2yQBDdw7jU)
 > Note: You can also use this video to enable Android Build Support, or create your own project.
 
 ## License
