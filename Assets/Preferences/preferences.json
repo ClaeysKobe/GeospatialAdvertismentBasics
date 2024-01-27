@@ -1,0 +1,12 @@
+{
+    "preferences": [
+        {
+            "type": "school",
+            "count": 16
+        },
+        {
+            "type": "high school",
+            "count": 8
+        }
+    ]
+}
