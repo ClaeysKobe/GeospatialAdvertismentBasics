@@ -23,6 +23,8 @@ This project tries to combine AR and advertisment. However, this project can als
      - Get your API key from the credentials page
 2. Unity Version
    - Install Unity Hub and Unity version 2022.3.10f1 with the iOS Build Support package
+   - To install 2022.3.10f1, head over to the [Unity Archive](https://unity.com/releases/editor/archive)
+   - Make sure to add iOS Build Support when installing the correct version. If not, this can still be configured later.
 
 ## Getting Started
 1. Clone the GitHub repository on your pc via your preferred tool (e.g. GitHub Desktop)
