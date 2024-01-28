@@ -70,6 +70,14 @@ This project tries to combine AR and advertisment. However, this project can als
        - type: pod install
        - press enter
        - done
+    - Go to File > Addd Packages... (in the top right bar)
+    - Search "arcore-ios-sdk"
+    - Clcik "Add Package"
+    - Check ARCoreGeospatial and set Target to Unity-iPhone
+    - Go to Unity-iPhone
+    - Select Build Settings
+    - Search for bitcode
+    - Set "Enable Bitcode" to No
     - Plug in your iPhone
     - Press the "play" button on the top left of the xcode window
     - Wait untill the project is build, it will open automatically
