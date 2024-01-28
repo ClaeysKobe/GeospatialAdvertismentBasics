@@ -11,14 +11,14 @@ This project tries to combine AR and advertisment. However, this project can als
      - Go to [Google Cloud Console](https://console.cloud.google.com)
      - Create a new project or select an existing one
      - Navigate to the "APIs & Services" Page
-     - Click on the top of the sceen on the "ENABLE APIS AND SERVICES" button and search for "Map Tiles API"
+     - Click on the top of the screen on the "ENABLE APIS AND SERVICES" button and search for "Map Tiles API"
      - Enable the API (you might be asked to fill in your credentials here)
      - Get your API key from the credentials page
    -  Google ARCore API
      - Go to [Google Cloud Console](https://console.cloud.google.com)
      - Create a new project or select an existing one
      - Navigate to the "APIs & Services" Page
-     - Click on the top of the sceen on the "ENABLE APIS AND SERVICES" button and search for "ARCore API"
+     - Click on the top of the screen on the "ENABLE APIS AND SERVICES" button and search for "ARCore API"
      - Enable the API
      - Get your API key from the credentials page
 2. Unity Version
@@ -36,7 +36,7 @@ This project tries to combine AR and advertisment. However, this project can als
 ## Configuring your API Keys
 1. ARCore API Key
   - Go to Edit > Project Settings, located at the top right of your Unity Editor
-  - Navigato to XR Plugin Management > ARCore Extensions
+  - Navigate to XR Plugin Management > ARCore Extensions
   - Paste the API Key for the Google ARCore API in both the Android and iOS API Key Field
 2. Google Maps Tiles API
   - This key will need to be placed in every AR Geospatial Creator Origin, located in every scene (only 1 per scene)
@@ -49,7 +49,7 @@ This project tries to combine AR and advertisment. However, this project can als
 4. Enter your Google Maps Tiles API key in the "Google Maps Tiles API key" field in the Inspector (Usually located at the right of your Unity Editor)
 5. (optional) Move the project to a different location:
    - Go to a Google Maps, Earth, Apple Maps... and search for the desired location
-   - Get the Latitude and Longitude fron this location and paste them in the corret field of the "AR Geospatial Creator Origin" and the "AR Geospatial Creator Anchor"
+   - Get the Latitude and Longitude from this location and paste them in the correct field of the "AR Geospatial Creator Origin" and the "AR Geospatial Creator Anchor"
    - Change the height so it is around the same height of the Unity Grid for convenience
 ![Image for clarification](https://i.imgur.com/gkX39AA.png)
 
@@ -59,7 +59,7 @@ This project tries to combine AR and advertisment. However, this project can als
    - Select iOS and click on "Switch Platform"
    - Click on "Add Open Scenes". You should see "Scenes/SampleScene" appear
    - Click on "Build" and choose a location to build the project, **I recommend too not build directly in your Unity folder! If you wish to build there, make a separate folder in your Unity Project**
-   - Wait untill the project is Build. Once done, open the _your_chosen_name_.xcworkspace file
+   - Wait until the project is Build. Once done, open the _your_chosen_name_.xcworkspace file
      - If you do not see a .xcworkspace file, but only a .xcodeproj file, please follow this first:
        - copy the file path to your build
        - Open "Terminal"
@@ -70,13 +70,13 @@ This project tries to combine AR and advertisment. However, this project can als
        - type: pod install
        - press enter
        - done
-    - Go to File > Addd Packages... (in the top right bar)
+    - Go to File > Add Packages... (in the top right bar)
     - Search "arcore-ios-sdk"
-    - Clcik "Add Package"
+    - Clik "Add Package"
     - Check ARCoreGeospatial and set Target to Unity-iPhone
     - Go to Unity-iPhone
     - Select Build Settings
-    - Search for bitcode
+    - Search for Bitcode
     - Set "Enable Bitcode" to No
     - Plug in your iPhone
     - Press the "play" button on the top left of the xcode window
