@@ -1,5 +1,5 @@
 # GeospatialAdvertismentBasics
-> **This project was made for iOS, so a device running a recent MacOS version and an iPhone are required**
+> **This project was tested on iOS, so a device running a recent MacOS version and an iPhone are recommended. Android built support has been added, but not tested.**
 
 This project tries to combine AR and advertisment. However, this project can also be used as basis for a Geosptial AR app. There is a sample scene you can use, or start immediately with a AR Ready Main scene. Please read the requirements before getting started.
 
@@ -24,7 +24,7 @@ This project tries to combine AR and advertisment. However, this project can als
 2. Unity Version
    - Install Unity Hub and Unity version 2022.3.10f1 with the iOS Build Support package
    - To install 2022.3.10f1, head over to the [Unity Archive](https://unity.com/releases/editor/archive)
-   - Make sure to add iOS Build Support when installing the correct version. If not, this can still be configured later.
+   - Make sure to add iOS / Android Build Support when installing the correct version. If not, this can still be configured later
 
 ## Getting Started
 1. Clone the GitHub repository on your pc via your preferred tool (e.g. GitHub Desktop)
