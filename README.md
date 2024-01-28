@@ -82,6 +82,14 @@ This project tries to combine AR and advertisment. However, this project can als
     - Press the "play" button on the top left of the xcode window
     - Wait until the project is build, it will open automatically
     - Enjoy!
+  
+## Testing the project on Android
+- Go to "File" > "Build Settings", or press Ctrl + Shift + B
+- Select Android and click on "Switch Platform"
+- Click on "Add Open Scenes". You should see "Scenes/SampleScene" appear
+- Click on "Build" and choose the phone you want to deploy to
+- Wait until the project is build on your phone
+- Enjoy!
 
 ## Making your own scene
 > You can use the "Main" scene as a basis. The "AR Geospatial Creator Anchor" (also a prefab) can be used to place objects in the real world
