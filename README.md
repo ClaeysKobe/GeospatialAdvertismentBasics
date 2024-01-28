@@ -80,7 +80,7 @@ This project tries to combine AR and advertisment. However, this project can als
     - Set "Enable Bitcode" to No
     - Plug in your iPhone
     - Press the "play" button on the top left of the xcode window
-    - Wait untill the project is build, it will open automatically
+    - Wait until the project is build, it will open automatically
     - Enjoy!
 
 ## Making your own scene
