@@ -15,12 +15,12 @@ This project tries to combine AR and advertisment. However, this project can als
      - Enable the API (you might be asked to fill in your credentials here)
      - Get your API key from the credentials page
    -  Google ARCore API
-     - Go to [Google Cloud Console](https://console.cloud.google.com)
-     - Create a new project or select an existing one
-     - Navigate to the "APIs & Services" Page
-     - Click on the top of the screen on the "ENABLE APIS AND SERVICES" button and search for "ARCore API"
-     - Enable the API
-     - Get your API key from the credentials page
+        - Go to [Google Cloud Console](https://console.cloud.google.com)
+        - Create a new project or select an existing one
+        - Navigate to the "APIs & Services" Page
+        - Click on the top of the screen on the "ENABLE APIS AND SERVICES" button and search for "ARCore API"
+        - Enable the API
+        - Get your API key from the credentials page
    - Google Places Api
      - Go to [Google Cloud Console](https://console.cloud.google.com)
      - Create a new project or select an existing one
