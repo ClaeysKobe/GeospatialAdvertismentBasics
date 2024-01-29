@@ -21,6 +21,13 @@ This project tries to combine AR and advertisment. However, this project can als
      - Click on the top of the screen on the "ENABLE APIS AND SERVICES" button and search for "ARCore API"
      - Enable the API
      - Get your API key from the credentials page
+   - Google Places Api
+     - Go to [Google Cloud Console](https://console.cloud.google.com)
+     - Create a new project or select an existing one
+     - Navigate to the "APIs & Services" Page
+     - Click on the top of the screen on the "ENABLE APIS AND SERVICES" button and search for "Places API"
+     - Enable the API
+     - Get your API key from the credentials page
 2. Unity Version
    - Install Unity Hub and Unity version 2022.3.10f1 with the iOS Build Support package
    - To install 2022.3.10f1, head over to the [Unity Archive](https://unity.com/releases/editor/archive)
@@ -40,6 +47,8 @@ This project tries to combine AR and advertisment. However, this project can als
   - Paste the API Key for the Google ARCore API in both the Android and iOS API Key Field
 2. Google Maps Tiles API
   - This key will need to be placed in every AR Geospatial Creator Origin, located in every scene (only 1 per scene)
+3. Maps API
+  - In the scene view (left side of the Unity window), open the "Managers" component. Select the NearbyManager and place the API key in the correct field. 
 
 ## Trying out the sample scene
 > This scene was build at Howest Kortrijk, Belgium. If you are not near this location to test, I recommend changing the coordinates (explained later) to test somewhere near you
